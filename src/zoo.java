@@ -7,29 +7,25 @@ public class zoo {
 
         Tiger tigger = new Tiger("Tigger");
         tigger.eat("meat");
-        tigger.eat("kibble");
+
+        Bear pooh = new Bear("Pooh");
+        pooh.eat("fish");
+        pooh.eat("meat");
+
+        Unicorn rare = new Unicorn("Rarity");
+        rare.eat("marshmallows");
+
+        Giraffe gemma = new Giraffe("Gemma");
+        gemma.eat("meat");
+        gemma.eat("leaves");
+
+        Bees stinger = new Bees("Stinger");
+        stinger.eat("ice cream");
+        stinger.eat("pollen");
 
     }
 
 
-    
-    //sleep
-    public void sleep(String name){
-        System.out.println(name+" sleeps for 8 hours");
-    }
-    //food and eat
-    String favoriteFood = "bacon";
-
-    public void eat(String name, String food){
-        System.out.println(name + " eats " + food);
-        if(food.equals(favoriteFood)){
-            System.out.println("YUM!!!" +name + " wants more " + food);
-        }
-        else {
-            sleep(name);
-        }
-
-    }
 
 
 }
