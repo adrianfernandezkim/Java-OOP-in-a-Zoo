@@ -9,8 +9,5 @@ public class Unicorn extends Animal {
     public void sleep(){
         System.out.println(name+" sleeps in a cloud");
     }
-    public void eat(String food){
-        super.eat(food);
-        sleep();
-    }
+
 }
