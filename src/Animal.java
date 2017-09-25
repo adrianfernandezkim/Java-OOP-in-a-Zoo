@@ -15,7 +15,7 @@ public class Animal {
 
     }
 
-    public int populationCount(){
+    public static int populationCount(){
         return population;
     }
     public void sleep(){

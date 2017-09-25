@@ -4,7 +4,7 @@
 public class Bees extends Animal {
     public Bees(String name){
         super(name, "pollen");
-        this.name = name;
+
     }
     public void sleep(){
         System.out.println(name+" never sleeps");

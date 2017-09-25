@@ -2,6 +2,7 @@
  * Created by h205p2 on 9/19/17.
  */
 public class Unicorn extends Animal {
+
     public Unicorn(String name){
         super(name, "marshmallows");
         this.name = name;

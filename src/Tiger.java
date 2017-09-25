@@ -3,7 +3,7 @@
  */
 public class Tiger extends Animal {
     //instance vars
-    String name;
+
 
     public Tiger(String name){
         super(name, "meat");
